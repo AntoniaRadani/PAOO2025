@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Sprite {
 
-    private final BufferedImage SPRITE_SHEET = null;
+    private BufferedImage SPRITE_SHEET = null;
     private BufferedImage[][] spriteArray;
     private final int TILE_SIZE = 32; // posibil sa trebuiasca sa schimbam, dar detalii
     public int w;
@@ -133,9 +133,10 @@ public class Sprite {
                 g.drawImage(f.getFont(word.charAt(i)), (int) x, (int) y, width, height, null);
             }
         }
-
         x += xOffSet;
         y += yOffSet;
+
+
 
     }
 

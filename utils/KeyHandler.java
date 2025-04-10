@@ -1,10 +1,8 @@
 package utils;
 
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.security.Key;
 import java.util.ArrayList;
 import gui.GamePanel;
 

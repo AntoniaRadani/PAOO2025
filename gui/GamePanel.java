@@ -31,6 +31,7 @@ public class GamePanel extends JPanel implements Runnable{
         setFocusable(true);
         requestFocus();
 
+
     }
 
     public void addNotify(){
